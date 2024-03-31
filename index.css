@@ -1,0 +1,31 @@
+:root {
+  --default-font: Arial, Helvetica, sans-serif;
+  --default-color: #0379ff;
+  --color: #fff;
+}
+.container {
+  font-family: var(--default-font);
+}
+.tab {
+  background-color: var(--default-color);
+  font-family: var(--default-font);
+  color: var(--color);
+}
+.invoice-details {
+  background-color: var(--default-color);
+  text-align: center;
+  color: var(--color);
+}
+.name {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 6px;
+}
+.list {
+  list-style-type: none;
+  padding: 5px;
+}
+li {
+  margin: 8px;
+  font-size: 13px;
+}
