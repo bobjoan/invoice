@@ -3,14 +3,13 @@
   --default-color: #0379ff;
   --color: #fff;
 }
-body {
-  background-color: black;
-}
 .container {
   font-family: var(--default-font);
   width: 100%;
   margin: 0 auto;
   background-color: #fff;
+  border: 1px solid none;
+  border-radius: 4px;
 }
 table.details,
 td {
@@ -29,8 +28,8 @@ td {
   padding: 0.5em;
 }
 
-[colspan="4"][rowspan="2"] {
-  height: 6em;
+[colspan="8"][rowspan="2"] {
+  height: 3em;
 }
 .wide-cell {
   width: 100%;
@@ -50,8 +49,9 @@ td {
   background-color: var(--default-color);
   text-align: center;
   color: var(--color);
-  padding-top: 5px;
   padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 1px;
   font-size: 19px;
   font-weight: 300;
 }
@@ -67,4 +67,6 @@ td {
 li {
   margin: 8px;
   font-size: 13px;
+}
+.items {
 }
