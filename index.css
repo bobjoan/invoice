@@ -21,7 +21,7 @@ td {
   margin: 0 auto;
 }
 .line-items-container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   padding-top: 30px;
   font-family: var(--default-font);
@@ -37,7 +37,6 @@ td {
   padding: 5px;
 }
 .wide-cell {
-  width: 25%;
   padding: 10px;
   font-weight: bold;
 }
