@@ -3,16 +3,22 @@
   --default-color: #0379ff;
   --color: #fff;
 }
+body {
+  background-color: black;
+}
 .container {
   font-family: var(--default-font);
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  background-color: #fff;
 }
-table,
+table.details,
 td {
-  border: solid 2px black;
-  text-align: center;
+  border: solid 1px gray;
+  text-align: left;
   border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .bold ~ tr td {
@@ -25,6 +31,14 @@ td {
 
 [colspan="4"][rowspan="2"] {
   height: 6em;
+}
+.wide-cell {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+.sub-tab {
+  font-weight: bold;
 }
 .tab {
   background-color: var(--default-color);
