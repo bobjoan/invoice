@@ -20,7 +20,19 @@ td {
   width: 100%;
   margin: 0 auto;
 }
-
+.line-items-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-family: var(--default-font);
+}
+.heading-items {
+  background-color: var(--default-color);
+  color: #fff;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border: none;
+}
 .bold ~ tr td {
   border: solid 1px lightgray;
 }
@@ -68,6 +80,4 @@ td {
 li {
   margin: 8px;
   font-size: 13px;
-}
-.items {
 }
