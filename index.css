@@ -8,6 +8,24 @@
   width: 80%;
   margin: 0 auto;
 }
+table,
+td {
+  border: solid 2px black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.bold ~ tr td {
+  border: solid 1px lightgray;
+}
+
+td {
+  padding: 0.5em;
+}
+
+[colspan="4"][rowspan="2"] {
+  height: 6em;
+}
 .tab {
   background-color: var(--default-color);
   font-family: var(--default-font);
