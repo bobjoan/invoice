@@ -33,30 +33,27 @@ td {
   padding-bottom: 5px;
   border: none;
 }
-.bold ~ tr td {
-  border: solid 1px lightgray;
-}
-
 td {
-  padding: 0.5em;
-}
-
-[colspan="8"][rowspan="2"] {
-  height: 3em;
+  padding: 5px;
 }
 .wide-cell {
-  width: 70%;
+  width: 25%;
   padding: 10px;
   font-weight: bold;
 }
 .sub-tab {
   font-weight: bold;
+  width: 50%;
 }
 .tab {
   background-color: var(--default-color);
   font-family: var(--default-font);
   color: var(--color);
   padding-top: 10px;
+}
+.row-container {
+  display: flex;
+  justify-content: space-around;
 }
 .invoice-details {
   background-color: var(--default-color);
