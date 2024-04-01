@@ -5,7 +5,7 @@
 }
 .container {
   font-family: var(--default-font);
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid none;
@@ -32,7 +32,7 @@ td {
   height: 3em;
 }
 .wide-cell {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   font-weight: bold;
 }
