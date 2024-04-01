@@ -9,8 +9,6 @@
   margin: 0 auto;
 }
 .tab {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--default-color);
   font-family: var(--default-font);
   color: var(--color);
@@ -24,9 +22,6 @@
   padding-bottom: 5px;
   font-size: 19px;
   font-weight: 300;
-}
-.invoice-tab {
-  flex: 1;
 }
 .name {
   font-size: 20px;
